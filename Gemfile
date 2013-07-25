@@ -27,6 +27,7 @@ end
 
 gem 'jquery-rails'
 
+gem 'unicorn'
 
 gem 'will_paginate', '>= 3.0.pre'
 
