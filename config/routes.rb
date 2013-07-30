@@ -57,5 +57,5 @@ Tailormade::Application.routes.draw do
   # match ':controller(/:action(/:id))(.:format)'
   
     get 'home' => 'site#index'
-
-end
+    get 'www.tailormadebarberindy.com/home' => 'site#index'
+    end
