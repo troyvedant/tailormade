@@ -61,4 +61,3 @@ Tailormade::Application.routes.draw do
     #get 'www.tailormadebarberindy.com/home' => 'site#index'
     end
     
-    redirect_to root_path
