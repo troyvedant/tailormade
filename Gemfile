@@ -13,7 +13,7 @@ gem 'pg'
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'sass-rails',   '~> 3.2.3'
+  
   gem 'coffee-rails', '~> 3.2.1'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
@@ -24,9 +24,10 @@ group :assets do
   gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
   gem "therubyracer"
   gem 'libv8', '~> 3.11.8'
-  gem "less-rails"
+  
 end
-
+gem 'sass-rails',   '~> 3.2.3'
+gem "less-rails"
 gem 'jquery-rails'
 
 gem 'unicorn'
