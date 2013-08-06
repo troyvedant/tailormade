@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.0.0'
+
 
 gem 'rails', '3.2.13'
 
@@ -15,7 +15,8 @@ gem 'pg'
 group :assets do
   
   gem 'coffee-rails', '~> 3.2.1'
-
+  gem 'sass-rails',   '~> 3.2.3'
+  gem 'less-rails'
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
 
@@ -26,8 +27,10 @@ group :assets do
   gem 'libv8', '~> 3.11.8'
   
 end
-gem 'sass-rails',   '~> 3.2.3'
-gem "less-rails"
+
+gem 'bootstrap-sass'
+gem 'less-rails-bootstrap'
+gem 'less-rails'
 gem 'jquery-rails'
 
 gem 'unicorn'
