@@ -22,17 +22,17 @@ group :assets do
 
   gem 'uglifier', '>= 1.0.3'
   gem 'uglifier', '>= 1.0.3'
-  gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
+  
   gem "therubyracer"
   gem 'libv8', '~> 3.11.8'
   
 end
-
+gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
 gem 'bootstrap-sass'
 gem 'less-rails-bootstrap'
 gem 'less-rails'
 gem 'jquery-rails'
-
+ gem 'sass-rails',   '~> 3.2.3'
 gem 'unicorn'
 
 gem 'will_paginate', '>= 3.0.pre'
