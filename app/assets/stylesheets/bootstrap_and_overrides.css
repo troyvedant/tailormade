@@ -30,7 +30,7 @@
  
  body {
     padding-top: 150px; /* When using the navbar-top-fixed */
-    .#gradient > .vertical(#000, #fff);
+    /*.#gradient > .vertical(#000, #fff); */
     }
     
 .navbar-inner{
