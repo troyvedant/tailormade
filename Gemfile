@@ -25,7 +25,8 @@ group :assets do
   
   gem "therubyracer"
   gem 'libv8', '~> 3.11.8'
-  
+  gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
+
 end
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
 gem 'bootstrap-sass'
