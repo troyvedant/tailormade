@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 
-
+ruby '1.9.3'
 gem 'rails', '3.2.13'
 
 # Bundle edge Rails instead:
@@ -21,8 +21,8 @@ group :assets do
   # gem 'therubyracer', :platforms => :ruby
 
   gem 'uglifier', '>= 1.0.3'
-  gem 'uglifier', '>= 1.0.3'
-  
+
+  gem 'jquery-rails'
   gem "therubyracer"
   gem 'libv8', '~> 3.11.8'
   gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
@@ -37,6 +37,7 @@ gem 'jquery-rails'
 gem 'unicorn'
 
 gem 'will_paginate', '>= 3.0.pre'
+gem 'heroku'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
