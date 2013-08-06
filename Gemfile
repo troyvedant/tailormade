@@ -20,7 +20,7 @@ end
 group :assets do
   
   gem 'coffee-rails', '~> 3.2.1'
-  gem 'sass-rails',   '~> 3.2.9'
+  gem 'sass-rails'
   gem 'less-rails'
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
@@ -38,7 +38,7 @@ gem 'bootstrap-sass'
 gem 'less-rails-bootstrap'
 gem 'less-rails'
 gem 'jquery-rails'
- gem 'sass-rails',   '~> 3.2.9'
+ gem 'sass-rails'
 gem 'unicorn'
 
 gem 'will_paginate', '>= 3.0.pre'
