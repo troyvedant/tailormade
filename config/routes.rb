@@ -1,7 +1,7 @@
 Tailormade::Application.routes.draw do
   
   
-  root 'site#index'
+  root :to => 'site#index'
   
   # The priority is based upon order of creation:
   # first created -> highest priority.
